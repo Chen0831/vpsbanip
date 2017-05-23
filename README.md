@@ -1,4 +1,9 @@
 # vpsbanip
+
+在设置中国时区使用亚洲/上海（+8）
+
+cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+
 vps 禁止密码登陆 
 用 cat /var/log/auth.log命令查看
 
